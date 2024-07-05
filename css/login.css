@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 30px;
+}
+
+.login-form {
+    text-align: center;
+    color: #333;
+}
+
+.login-form .logo img {
+    max-width: 80px;
+
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 15px 20px;
+    padding-left: 45px;
+    font-size: 16px;
+}
+
+.input-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #0f0e0e;
+}
+
+#togglePassword {
+    cursor: pointer;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+.btn-primary {
+    background: linear-gradient(145deg, #ff9900, #ff6600);
+    border: none;
+    border-radius: 30px;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(145deg, #ff6600, #ff9900);
+}
+
+.social-login button {
+    border-radius: 50px;
+    background: #fff;
+    color: #ff6600;
+    border: 1px solid #ff6600;
+    padding: 5px 10px;
+    margin: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.social-login button:hover {
+    background: #ff6600;
+    color: #fff;
+}
+.social-login button img{
+    width: 20px;
+}
+a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
